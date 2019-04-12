@@ -1,0 +1,25 @@
+QIAseq miRNA Data Analysis: How to analyze
+
+1. Go to qiagen.com/geneglobe
+2. Click on “Data Analysis Center”
+3. In the Data Analysis Center:
+     -Under “Choose Format”: Select “NGS” and then select “Primary QIAseq miRNA Quantification”
+     -Choose “Pack Size” and “Instrument”
+     -You will now be routed to the primary analysis portal
+4. In the primary analysis portal:
+     -Under “File Upload”, upload the FastQ files
+     -Under “File Management”, select the FastQ files you would like to map and click “Preselect”
+     -Under “miRNA Quantification Jobs”:
+         a)Select “Species” from the dropdown menu
+         b)Select “Files Lanes” from the dropdown menu
+         c)Click “Create Jobs”
+         d)Periodically refresh the page by clicking “miRNA Quantification Jobs” tab. Job status will change from “queued” to
+          “in progress” to ultimately “done successfully”.
+     -When the job has finished, you can either click “Download Report” to receive the primary analysis output or click
+      “Secondary Analysis” to immediately proceed to Secondary Analysis.
+5. In the secondary analysis portal:
+     -Under “Analysis setup”, go to “Sample Manager” to define sample group
+     -Under “Analysis setup”, go to “Select Normalization Method” to choose the normalization option for the data
+     -Under “Analysis”, observe the Fold-Regulation and Fold-Change results
+     -Under “Plots & charts”, observe visual representations of the data
+     -Under “Export data”, choose what data you want to export, and then click “Export”
