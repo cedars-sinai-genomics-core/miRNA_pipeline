@@ -2,7 +2,7 @@
 We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA data. 
 
 ## Process data in GeneGlobe
-1. Go to qiagen.com/geneglobe
+1. Go to https://login.qiagen.com/login?service=https%3A%2F%2Fgeneglobe.qiagen.com%2Fus%2Fanalyze. Login info is on the BOX login spreadsheet
 
 2. Click on “Analyze”
  
