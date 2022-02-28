@@ -3,9 +3,10 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
 
 ## Process data in GeneGlobe
 1. Go to qiagen.com/geneglobe
-2. Click on “Analyze”
-3. In the Data Analysis Center:
 
+2. Click on “Analyze”
+ 
+3. In the Data Analysis Center:
 - Under “Select analysis type”, select “NGS” 
 - Under "Select your analyte", select “miRNA”
 - Under "Select your panel", select "QIAseq miRNA Library Kit"
@@ -13,7 +14,6 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
 - then click submit, you will now be routed to the "QIAseq miRNA Quantification" portal
      
 4. In the "QIAseq miRNA Quantification" portal:
-
 - Select “Upload New Files” and this will bring you to “Data Input Uploader”, upload the FastQ files 
 - Once upload is done, go back to "QIAseq miRNA Quantification", select all the FastQ files you would like to process for one project and click on "select for analysis"
 - Under “Analysis Jobs”:
@@ -26,7 +26,7 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
           “in progress” to ultimately “done successfully”.   
      - When the job has finished, you can either click “Download Report” to receive the primary analysis output.
 
-## Tier1 data analysis  
+## "QIAseq miRNA Quantification" data analysis   
 Step1: Adaptor Trimming  
   • Remove the adapter sequences from the reads  
 
