@@ -19,7 +19,7 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
      - Under “Analysis Jobs”:
      
          a. For "Job Title", input the project ID
-         b) For "QIAseq Spike-ins Added", select "NO"
+         b. For "QIAseq Spike-ins Added", select "NO"
          c) Select “Species” from the dropdown menu
          d) For "File Lanes", select "1-lane" 
          e) Then click on "Analyze". The job will be submitted and will run in the background
