@@ -1,7 +1,7 @@
 # miRNA_pipeline  
 We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA data. 
 
-## submit data 
+## Process data in GeneGlobe
 1. Go to qiagen.com/geneglobe
 2. Click on “Analyze”
 3. In the Data Analysis Center:
@@ -17,6 +17,7 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
      - Select “Upload New Files” and this will bring you to “Data Input Uploader”, upload the FastQ files 
      - Once upload is done, go back to "QIAseq miRNA Quantification", select all the FastQ files you would like to process for one project and click on "select for analysis"
      - Under “Analysis Jobs”:
+     
          a) For "Job Title", input the project ID
          b) For "QIAseq Spike-ins Added", select "NO"
          c) Select “Species” from the dropdown menu
@@ -24,6 +25,7 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
          e) Then click on "Analyze". The job will be submitted and will run in the background
          f) Periodically refresh the page by clicking “miRNA Quantification Jobs” tab. Job status will change from “queued” to
           “in progress” to ultimately “done successfully”.
+          
      -When the job has finished, you can either click “Download Report” to receive the primary analysis output.
 
 ## Tier1 data analysis  
