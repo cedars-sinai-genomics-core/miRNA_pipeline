@@ -18,7 +18,7 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
      - Once upload is done, go back to "QIAseq miRNA Quantification", select all the FastQ files you would like to process for one project and click on "select for analysis"
      - Under “Analysis Jobs”:
      
-         a) For "Job Title", input the project ID
+         a. For "Job Title", input the project ID
          b) For "QIAseq Spike-ins Added", select "NO"
          c) Select “Species” from the dropdown menu
          d) For "File Lanes", select "1-lane" 
