@@ -5,16 +5,18 @@ We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA d
 1. Go to qiagen.com/geneglobe
 2. Click on “Analyze”
 3. In the Data Analysis Center:
-     -Under “Select analysis type”, select “NGS” 
-     -Under "Select your analyte", select “miRNA”
-     -Under "Select your panel", select "QIAseq miRNA Library Kit"
-     -Under "Select analysis pipeline", select "Legacy Analysis Pipelines"
-     -Under "Select analysis type", select "Primay Quantification"
-     -then click submit, you will now be routed to the "QIAseq miRNA Quantification" portal
+     - Under “Select analysis type”, select “NGS” 
+     - Under "Select your analyte", select “miRNA”
+     - Under "Select your panel", select "QIAseq miRNA Library Kit"
+     - Under "Select analysis pipeline", select "Legacy Analysis Pipelines"
+     - Under "Select analysis type", select "Primay Quantification"
+     - then click submit, you will now be routed to the "QIAseq miRNA Quantification" portal
+     
 4. In the "QIAseq miRNA Quantification" portal:
-     -Select “Upload New Files” and this will bring you to “Data Input Uploader”, upload the FastQ files 
-     -Once upload is done, go back to "QIAseq miRNA Quantification", select all the FastQ files you would like to process for one project and click on "select for analysis"
-     -Under “Analysis Jobs”:
+
+     - Select “Upload New Files” and this will bring you to “Data Input Uploader”, upload the FastQ files 
+     - Once upload is done, go back to "QIAseq miRNA Quantification", select all the FastQ files you would like to process for one project and click on "select for analysis"
+     - Under “Analysis Jobs”:
          a) For "Job Title", input the project ID
          b) For "QIAseq Spike-ins Added", select "NO"
          c) Select “Species” from the dropdown menu
