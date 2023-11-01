@@ -24,7 +24,7 @@ We use Qiagen's RNA Portal to do the primary processing for miRNA data
 6.  When complete, on the project page, on the right there will be an image with a scatter plot labeled "Experiment summary and QC" and click on that.
 7.  There is a tab that says "Quality control" click that and print the page (really saving it as a PDF), this will be the first deliverable.
    - Note: Or you can click "Print View" and save that page but remove the PCA plots from the file, this a deliverable and the **QC report**.
-8. IF THE RESEARCHER ORDERED TIER 1, PROCEED TO THIS STEP: Under the tab, "Samples", there is a button to select/download expression values, download "Mature miRNA values, one file per sample"
+8. **IF THE RESEARCHER ORDERED TIER 1, PROCEED TO THIS STEP:** Under the tab, "Samples", there is a button to select/download expression values, download "Mature miRNA values, one file per sample"
 
 ## Creating count table from individual expression values for Tier 1
 Qiagen does not output a single count table for all samples, therefore we need to create a single table for researchers. The script used to create the table is `miRNA_count_matrix_merging.R` and is stored in the bin folder on HPC and Titan.
