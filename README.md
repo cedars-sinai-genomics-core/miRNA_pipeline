@@ -26,7 +26,20 @@ We use Qiagen's RNA Portal to do the primary processing for miRNA data
    - Note: Or you can click "Print View" and save that page but remove the PCA plots from the file, this also can be the deliverable.
 8. Under the tab, "Samples", there is a button to select/download expression values, download "Mature miRNA values, one file per sample"
 
+## Creating count table from individual expression values
+Qiagen does not output a single count table for all samples, therefore we need to create a single table for researchers. The script used to create the table is `miRNA_count_matrix_merging.R` and is stored in the bin folder on HPC and Titan.
 
+1. Upload the files onto HPC/Titan
+2. Run with a conda env with tidyverse [below is on Titan, modify accordingly]
+```
+conda activate singlecell
+Rscript /home/genomics/genomics/bin/miRNA_count_matrix_merging.R /path/to/expression/values
+```
+3. This will output a table called `miRNA_piRNA_trimmed_expression_value.csv` and this will be the second deliverable.
+
+## Deliverables
+1. PDF file of the QC metrics, from "Quality Control" tab from the Qiagen project experiment page
+2. miRNA_piRNA_trimmed_expression_value.csv, generated from expression values from "Samples" tabe from the Qiagen project experiment page
 
 
 
