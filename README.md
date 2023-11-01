@@ -22,7 +22,7 @@ We use Qiagen's RNA Portal to do the primary processing for miRNA data
    - Then click start
 5. This will take about 10-15 minutes with less than 10 samples, but if there are more come back to the portal when available.
 6.  When complete, on the project page, on the right there will be an image with a scatter plot labeled "Experiment summary and QC" and click on that.
-7.  There is a tab that says "Quality control" click that and print the page (really saving it as a PDF), this will be the first deliverable.
+7.  There is a tab that says "Quality control" click that and print the page (really saving it as a PDF), this will be the first deliverable and the **QC report**.
    - Note: Or you can click "Print View" and save that page but remove the PCA plots from the file, this a deliverable and the **QC report**.
 8. **IF THE RESEARCHER ORDERED TIER 1, PROCEED TO THIS STEP:** Under the tab, "Samples", there is a button to select/download expression values, download "Mature miRNA values, one file per sample"
 
