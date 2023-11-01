@@ -1,4 +1,4 @@
-# Currently miRNA_pipeline
+# Current miRNA_pipeline
 We use Qiagen's RNA Portal to do the primary processing for miRNA data
 
 ## Process data
