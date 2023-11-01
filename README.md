@@ -39,7 +39,7 @@ Rscript /home/genomics/genomics/bin/miRNA_count_matrix_merging.R /path/to/expres
 
 ## Deliverables
 1. PDF file of the QC metrics, from "Quality Control" tab from the Qiagen project experiment page
-2. miRNA_piRNA_trimmed_expression_value.csv, generated from expression values from "Samples" tabe from the Qiagen project experiment page
+2. `miRNA_piRNA_trimmed_expression_value.csv` generated from expression values from "Samples" tabe from the Qiagen project experiment page
 
 
 
