@@ -2,7 +2,7 @@
 We use Qiagen's RNA Portal to do the primary processing for miRNA data
 
 ## Process data
-1. Go to https://rnaportal.qiagen.com/rnaportalui/#/ap/projects . Login info is on BOX login spreadsheet
+1. Go to https://ngsdataanalysis3.qiagen.com/QIAseqmiRNA/analysisfile . Login info is on SharePoint login spreadsheet (https://cedarssinai.sharepoint.com/:x:/r/sites/InternalGenomics/_layouts/15/doc2.aspx?sourcedoc=%7B3B429E97-CCB4-4BF3-BAED-A606C65196D5%7D&file=Various%20Login%20Info.xlsx&action=default&mobileredirect=true)
 2. On the upper left, click "Upload Data" and prior download the trimmed FASTQs for the project.
 3. Once the data has been uploaded, click "Align sample data" and select uploaded FASTQ files.
    - Create a new project, using the projectID as the project name.
