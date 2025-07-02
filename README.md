@@ -48,8 +48,8 @@ Rscript /home/genomics/genomics/bin/miRNA_count_matrix_merging.R /path/to/expres
 
 # OLD miRNA_pipeline  
 We use the GeneGlobe portal from Qiagen to do the primary processing for miRNA data. To access this pipeline:
-https://ngsdataanalysis2.qiagen.com/QIAseqmiRNA/analysisfile - for uploading files
-https://ngsdataanalysis2.qiagen.com/QIAseqmiRNA/analysisjob - primary analysis jobs
+https://ngsdataanalysis3.qiagen.com/QIAseqmiRNA/analysisfile - for uploading files
+https://ngsdataanalysis3.qiagen.com/QIAseqmiRNA/analysisjob - primary analysis jobs
 https://dataanalysis.qiagen.com/QIASeqmiRNA/arrayanalysis.php - secondary analysis
 
 ## Process data in GeneGlobe
